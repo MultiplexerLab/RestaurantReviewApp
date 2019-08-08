@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:background="@drawable/squarebox">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="72dp"
+            android:layout_height="74dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/img" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img"
+            android:paddingRight="5dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Name: Takeout"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_toRightOf="@+id/img"
+            android:text="Rating: 4.8"
+            android:paddingRight="5dp"
+            android:paddingLeft="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/tabcol" />
+
+
+        <TextView
+            android:id="@+id/totalTrainee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rating"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_toRightOf="@+id/img"
+            android:layout_marginTop="1dp"
+            android:text="Total Trainee: 34"
+            android:paddingRight="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/trainingStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/totalTrainee"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_toRightOf="@+id/img"
+            android:text="Training Started: 12th Jan 2019"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/trainingEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/trainingStart"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_toRightOf="@+id/img"
+            android:text="Training Ended: 12th Apr 2019"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

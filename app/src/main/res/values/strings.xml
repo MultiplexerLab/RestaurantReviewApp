@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Restaurant Review</string>
+    <string name="tag_line">Concerned Citizens Forum of the \n Global Village</string>
+    <string name="aboutus">A restaurant is a place where cooked food is sold to
+        the public, and where people sit down to eat it. It is also a place where
+        people go to enjoy the time and to eat a meal. Some restaurants are a chain,
+        meaning that there are restaurants which have the same name and serve the same
+        food.</string>
+
+    <string name="GoogleMapKey">AIzaSyCoaD-PwvGHjR1T6z7wwX6OE7lChTVSSU0</string>
+
+
+</resources>

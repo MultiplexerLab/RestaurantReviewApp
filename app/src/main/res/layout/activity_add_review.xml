@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcol"
+    tools:context=".AddReviewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/squarebox"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:elevation="8dp"
+        android:padding="10dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Restaurant Name"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/colorPrimaryDark"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/squarebox"
+            android:backgroundTint="@color/tabcol"
+            android:text="Enter your rating"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Note"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="40dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+           android:background="@color/backgroundcol"
+            android:elevation="5dp"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="start"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload Pic: "
+                android:fontFamily="@font/roboto_medium"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Browse..."
+                android:paddingLeft="20dp"
+                android:background="@drawable/squarebox"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingRight="20dp"
+                android:layout_marginLeft="30dp"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Submit"
+            android:onClick="btnReview"
+            android:textColor="@color/white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:background="@drawable/request_merchant_box"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

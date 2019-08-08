@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:elevation="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    android:paddingTop="15dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/squarebox"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/HtoL"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="Rating (High to Low)"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/LtoH"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="Rating (Low to High)"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    </LinearLayout>
+</LinearLayout>

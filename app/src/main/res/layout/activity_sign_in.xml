@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signinbg"
+    tools:context=".SignInActivity">
+
+    <TextView
+        android:id="@+id/tvSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="114dp"
+        android:fontFamily="@font/playfair_display_bold"
+        android:text="SIGN IN"
+        android:textColor="#F1EDED"
+        android:textSize="38dp" />
+
+    <LinearLayout
+        android:id="@+id/fbbtn"
+        android:layout_width="259dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/tvSignIn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/fbloginbox"
+        android:elevation="8dp"
+        android:onClick="btnFb"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:weightSum="7">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/fblogo" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5"
+            android:fontFamily="@font/source_serif_pro_bold"
+            android:gravity="end"
+            android:text="Connect with Facebook"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/googlebtn"
+        android:layout_width="259dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/fbbtn"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/googleloginbox"
+        android:elevation="8dp"
+        android:onClick="btnGoogle"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:weightSum="7">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/googlelogo" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5"
+            android:fontFamily="@font/source_serif_pro_bold"
+            android:gravity="center"
+            android:text="Connect with Google"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
