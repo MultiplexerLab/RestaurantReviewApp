@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\RestaurantReviewApp\\RestaurantReviewApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "/home/anix/Documents/GitProjects/RestaurantReviewApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-2\\files-2.1\\7c3bcf42e1427f5e59b0e52b556c38b7\\res\\values-land\\values-land.xml",
+                    "source": "/home/anix/.gradle/caches/transforms-2/files-2.1/c4774c3ee7ff963d9aa1eb553509c8d4/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,17 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-2\\files-2.1\\1382db81127e48ea6f8757c920374d7d\\res\\values-land\\values.xml",
+                    "source": "/home/anix/.gradle/caches/transforms-2/files-2.1/46a76867b33e3212f14375ec325c90a1/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                },
+                {
+                    "source": "/home/anix/.gradle/caches/transforms-2/files-2.1/b13d3836f0505d6d5763f9bf8559365e/res/values-land/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9",
                         "startColumns": "0,0,0,0,0,0",
@@ -40,17 +50,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-2\\files-2.1\\d5fdb852eee77c186aee557e12beb1fd\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,196",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "120,191,259"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-2\\files-2.1\\5f0d02d452923958af771f66152a646b\\res\\values-land\\values-land.xml",
+                    "source": "/home/anix/.gradle/caches/transforms-2/files-2.1/ef4c4d8c731ceceb1f9a52355f1b0411/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

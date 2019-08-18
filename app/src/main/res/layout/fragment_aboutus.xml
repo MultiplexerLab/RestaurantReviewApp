@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+
     android:padding="10dp"
     android:background="@color/backgroundcol"
     tools:context=".Fragment.AboutusFragment">
@@ -14,6 +14,8 @@
     android:layout_gravity="center_horizontal"
     android:padding="10dp"
     android:elevation="2dp"
+    android:id="@+id/logo"
+    android:layout_centerHorizontal="true"
     android:background="@drawable/squarebox"
     android:layout_marginTop="50dp">
 
@@ -33,6 +35,18 @@
         android:textColor="@color/black"
         android:fontFamily="@font/source_serif_pro_bold"
         android:gravity="center"
+        android:layout_below="@+id/logo"
         android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
 
-</LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Website or FB Link"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:background="@drawable/squarebox"
+        android:backgroundTint="@color/tabcol"
+        android:fontFamily="@font/source_serif_pro_bold"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

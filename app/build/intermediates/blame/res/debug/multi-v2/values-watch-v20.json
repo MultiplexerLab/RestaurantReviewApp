@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\RestaurantReviewApp\\RestaurantReviewApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
+            "outputFile": "/home/anix/Documents/GitProjects/RestaurantReviewApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-2\\files-2.1\\d5fdb852eee77c186aee557e12beb1fd\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "/home/anix/.gradle/caches/transforms-2/files-2.1/46a76867b33e3212f14375ec325c90a1/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-2\\files-2.1\\a0d4a4b8b30386ec0261b812182a2a06\\res\\values-watch-v20\\values.xml",
+                    "source": "/home/anix/.gradle/caches/transforms-2/files-2.1/fa876f121702e24b41beadff24f958af/res/values-watch-v20/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",

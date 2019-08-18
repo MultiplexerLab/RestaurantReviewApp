@@ -9,18 +9,25 @@
     <android.support.design.widget.TabLayout
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"
-        android:layout_height="58dp"
-        app:tabBackground="@color/tabcol"
-        app:tabIndicatorColor="@color/colorPrimaryDark"
-        app:tabSelectedTextColor="@color/white"
+        android:layout_height="50dp"
+        android:background="@color/tabcol"
+
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/white"
+        app:tabIndicatorGravity="stretch"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:tabMode="fixed"
         android:elevation="8dp"
-        app:tabTextColor="#000" />
+        app:tabRippleColor="@color/white"
+        app:tabSelectedTextColor="@color/tabcol"
+        app:tabTextAppearance="@style/tab_text"
+        app:tabTextColor="@color/white" />
 
 
     <FrameLayout
         android:id="@+id/simpleFrameLayout"
         android:layout_width="match_parent"
-        android:layout_below="@+id/tabLayout"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tabLayout" />
 
 </RelativeLayout>

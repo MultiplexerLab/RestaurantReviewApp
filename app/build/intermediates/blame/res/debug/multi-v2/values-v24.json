@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\RestaurantReviewApp\\RestaurantReviewApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "/home/anix/Documents/GitProjects/RestaurantReviewApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-2\\files-2.1\\48454cae08cb3287d51accd30686792a\\res\\values-v24\\values-v24.xml",
+                    "source": "/home/anix/.gradle/caches/transforms-2/files-2.1/08ab7bf98e95d41ae2dd83869845dc32/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-2\\files-2.1\\d5fdb852eee77c186aee557e12beb1fd\\res\\values-v24\\values-v24.xml",
+                    "source": "/home/anix/.gradle/caches/transforms-2/files-2.1/46a76867b33e3212f14375ec325c90a1/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

@@ -788,9 +788,12 @@ color error_color_material_light
 color fbcol
 color foreground_material_dark
 color foreground_material_light
+color gold
 color googlecol
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color logoBlue
+color logoGreen
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -1311,6 +1314,7 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable googleloginbox
 drawable googlelogo
+drawable gradcol
 drawable ic_audiotrack_dark
 drawable ic_audiotrack_light
 drawable ic_dialog_close_dark
@@ -1497,7 +1501,7 @@ drawable ic_vol_type_speaker_group_light
 drawable ic_vol_type_speaker_light
 drawable ic_vol_type_tv_dark
 drawable ic_vol_type_tv_light
-drawable img
+drawable location_icon
 drawable logo
 drawable map_icon
 drawable mr_button_connected_dark
@@ -1581,6 +1585,8 @@ drawable quantum_ic_volume_off_white_36
 drawable quantum_ic_volume_up_grey600_36
 drawable quantum_ic_volume_up_white_36
 drawable request_merchant_box
+drawable review_logo
+drawable round_button
 drawable signinbg
 drawable splashbg
 drawable squarebox
@@ -1595,8 +1601,6 @@ font source_serif_pro_bold
 id ALT
 id CTRL
 id FUNCTION
-id HtoL
-id LtoH
 id META
 id RVreview
 id SHIFT
@@ -1647,7 +1651,6 @@ id blocking
 id blurred_background_image_view
 id book_now
 id bottom
-id btnSort
 id button
 id buttonPanel
 id button_0
@@ -1740,6 +1743,7 @@ id googlebtn
 id grayscale
 id group_divider
 id groups
+id guideline
 id holo_dark
 id holo_light
 id home
@@ -1779,7 +1783,9 @@ id list_item
 id live_stream_indicator
 id live_stream_seek_bar
 id loading_indicator
+id logo
 id logo_only
+id mLayout
 id masked
 id match_global_nicknames
 id match_parent
@@ -1849,10 +1855,13 @@ id production
 id progressBar
 id progress_circular
 id progress_horizontal
+id rLayout
 id radio
 id rating
 id ratingR
+id ratingText
 id recyclerview
+id relativeLayout
 id requestbtn
 id rfc822
 id right
@@ -1896,6 +1905,7 @@ id snackbar_text
 id snap
 id snapMargins
 id spacer
+id spinner
 id split_action_bar
 id spread
 id spread_inside
@@ -1957,6 +1967,7 @@ id unlabeled
 id up
 id url
 id useLogo
+id view
 id view_offset_helper
 id visible
 id volume_item_container
@@ -2045,7 +2056,6 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout dialog_request
-layout dialog_sort
 layout fragment_aboutus
 layout fragment_map
 layout fragment_merchant
@@ -2080,6 +2090,7 @@ layout place_autocomplete_progress
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout spinner_item
 layout support_simple_spinner_dropdown_item
 layout wallet_test_layout
 mipmap ic_launcher
@@ -2765,6 +2776,7 @@ style Widget_MaterialComponents_Toolbar
 style Widget_MediaRouter_Light_MediaRouteButton
 style Widget_MediaRouter_MediaRouteButton
 style Widget_Support_CoordinatorLayout
+style tab_text
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

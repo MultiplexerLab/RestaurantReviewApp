@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#16AF91</color>
-    <color name="colorPrimaryDark">#0F9677</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#0C7E69</color>
+    <color name="colorPrimaryDark">#085E4E</color>
+    <color name="colorAccent">#000000</color>
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
     <color name="fbcol">#3A559F</color>
     <color name="googlecol">#DC4E41</color>
-    <color name="tabcol">#2791D1</color>
+    <color name="tabcol">#104F6E</color>
     <color name="backgroundcol">#F2EEEE</color>
+    <color name="logoGreen">#16AF92</color>
+    <color name="logoBlue">#2692D0</color>
+    <color name="gold">#FAC32B</color>
 </resources>

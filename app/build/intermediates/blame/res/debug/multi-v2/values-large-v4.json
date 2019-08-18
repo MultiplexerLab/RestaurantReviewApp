@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\RestaurantReviewApp\\RestaurantReviewApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+            "outputFile": "/home/anix/Documents/GitProjects/RestaurantReviewApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-2\\files-2.1\\7c3bcf42e1427f5e59b0e52b556c38b7\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "/home/anix/.gradle/caches/transforms-2/files-2.1/c4774c3ee7ff963d9aa1eb553509c8d4/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-2\\files-2.1\\d5fdb852eee77c186aee557e12beb1fd\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "/home/anix/.gradle/caches/transforms-2/files-2.1/46a76867b33e3212f14375ec325c90a1/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

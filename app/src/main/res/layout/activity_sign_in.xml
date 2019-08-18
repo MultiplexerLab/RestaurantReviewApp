@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,26 +11,53 @@
         android:id="@+id/tvSignIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="114dp"
-        android:fontFamily="@font/playfair_display_bold"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="8dp"
+        android:stateListAnimator="@null"
+        android:elevation="4dp"
         android:text="SIGN IN"
-        android:textColor="#F1EDED"
-        android:textSize="38dp" />
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="150dp"
+        android:layout_height="1.5dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/tvSignIn"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="@+id/tvSignIn"
+        app:layout_constraintTop_toBottomOf="@+id/tvSignIn" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.25" />
+
 
     <LinearLayout
         android:id="@+id/fbbtn"
         android:layout_width="259dp"
         android:layout_height="53dp"
-        android:layout_below="@+id/tvSignIn"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="90dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="8dp"
         android:background="@drawable/fbloginbox"
-        android:elevation="8dp"
+        android:elevation="4dp"
         android:onClick="btnFb"
         android:orientation="horizontal"
         android:paddingLeft="10dp"
-        android:weightSum="7">
+        android:weightSum="7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view">
 
         <ImageView
             android:layout_width="0dp"
@@ -59,13 +86,21 @@
         android:layout_height="53dp"
         android:layout_below="@+id/fbbtn"
         android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/googleloginbox"
-        android:elevation="8dp"
+        android:elevation="4dp"
         android:onClick="btnGoogle"
-        android:layout_marginTop="40dp"
         android:orientation="horizontal"
         android:paddingLeft="15dp"
-        android:weightSum="7">
+        android:weightSum="7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fbbtn"
+        app:layout_constraintVertical_bias="0.0">
 
         <ImageView
             android:layout_width="0dp"
@@ -89,4 +124,5 @@
     </LinearLayout>
 
 
-</RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

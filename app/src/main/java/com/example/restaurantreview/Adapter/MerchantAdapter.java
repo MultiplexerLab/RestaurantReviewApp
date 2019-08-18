@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.example.restaurantreview.Model.Merchant;
@@ -14,7 +15,7 @@ import com.example.restaurantreview.R;
 
 import java.util.List;
 
-public class MerchantAdapter extends RecyclerView.Adapter<MerchantAdapter.ViewHolder>  {
+public class MerchantAdapter extends RecyclerView.Adapter<MerchantAdapter.ViewHolder> {
 
     List<Merchant> merList;
 
@@ -36,7 +37,11 @@ public class MerchantAdapter extends RecyclerView.Adapter<MerchantAdapter.ViewHo
     @Override
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
         final Merchant merchant = merList.get(i);
-
+        if (i%2==0){
+            viewHolder.relativeLayout.setBackgroundResource(R.color.logoGreen);
+        }else {
+            viewHolder.relativeLayout.setBackgroundResource(R.color.logoBlue);
+        }
         viewHolder.name.setText(merchant.getName());
         viewHolder.rate.setText(merchant.getRating());
         viewHolder.numTrainee.setText(merchant.getNumTrainee());
@@ -53,12 +58,14 @@ public class MerchantAdapter extends RecyclerView.Adapter<MerchantAdapter.ViewHo
 
         ImageView logo;
         TextView name, rate, startTime, endTime, numTrainee;
+        RelativeLayout relativeLayout;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             logo = itemView.findViewById(R.id.img);
             name = itemView.findViewById(R.id.name);
             rate = itemView.findViewById(R.id.rating);
+            relativeLayout = itemView.findViewById(R.id.mLayout);
             startTime = itemView.findViewById(R.id.trainingStart);
             endTime = itemView.findViewById(R.id.trainingEnd);
             numTrainee = itemView.findViewById(R.id.totalTrainee);

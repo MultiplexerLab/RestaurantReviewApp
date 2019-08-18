@@ -11,10 +11,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:background="@drawable/request_merchant_box"
         android:elevation="5dp"
-        android:fontFamily="@font/source_serif_pro_bold"
+        android:fontFamily="@font/federo"
         android:padding="10dp"
         android:stateListAnimator="@null"
         android:text="Request For Your Restaurant"
@@ -26,7 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/requestbtn"
-        android:layout_margin="10dp" />
+        android:layout_marginTop="10dp" />
 
 
 </RelativeLayout>

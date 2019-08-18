@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        getSupportActionBar().setElevation(20);
         simpleFrameLayout = (FrameLayout) findViewById(R.id.simpleFrameLayout);
         tabLayout = (TabLayout) findViewById(R.id.tabLayout);
 
@@ -50,6 +50,9 @@ public class MainActivity extends AppCompatActivity {
         TabLayout.Tab aboutusTab = tabLayout.newTab();
         aboutusTab.setText("About Us");
         tabLayout.addTab(aboutusTab);
+        /*TabLayout.Tab aboutussTab = tabLayout.newTab();
+        aboutusTab.setText("About Us");
+        tabLayout.addTab(aboutussTab);*/
     }
 
     private void setInitFragment() {

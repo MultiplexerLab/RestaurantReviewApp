@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.example.restaurantreview.Model.Review;
@@ -33,6 +34,11 @@ public class ReviewAdapter extends RecyclerView.Adapter<ReviewAdapter.ViewHolder
     @Override
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
         final Review review = revList.get(i);
+        if (i%2==0){
+            viewHolder.relativeLayout.setBackgroundResource(R.color.logoGreen);
+        }else {
+            viewHolder.relativeLayout.setBackgroundResource(R.color.logoBlue);
+        }
 
         viewHolder.name.setText(review.getName());
         viewHolder.rating.setText(review.getRating());
@@ -48,8 +54,10 @@ public class ReviewAdapter extends RecyclerView.Adapter<ReviewAdapter.ViewHolder
     public class ViewHolder extends RecyclerView.ViewHolder {
         ImageView logo;
         TextView name, address, rating;
+        RelativeLayout relativeLayout;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
+            relativeLayout= itemView.findViewById(R.id.relativeLayout);
             logo = itemView.findViewById(R.id.imgR);
             name = itemView.findViewById(R.id.nameR);
             rating = itemView.findViewById(R.id.ratingR);

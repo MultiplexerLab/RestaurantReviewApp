@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\RestaurantReviewApp\\RestaurantReviewApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+            "outputFile": "/home/anix/Documents/GitProjects/RestaurantReviewApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-2\\files-2.1\\5f0d02d452923958af771f66152a646b\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "source": "/home/anix/.gradle/caches/transforms-2/files-2.1/ef4c4d8c731ceceb1f9a52355f1b0411/res/values-sw720dp-v13/values-sw720dp-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

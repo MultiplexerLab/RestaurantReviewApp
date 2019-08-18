@@ -61,13 +61,13 @@ public class MapFragment extends Fragment {
                 mMap.clear();
 
                 CameraPosition googlePlex = CameraPosition.builder()
-                        .target(new LatLng(23.764819, 90.397503))
-                        .zoom(10)
+                        .target(new LatLng(23.767701, 90.397460))
+                        .zoom(16)
                         .bearing(0)
                         .tilt(45)
                         .build();
 
-                mMap.animateCamera(CameraUpdateFactory.newCameraPosition(googlePlex), 10000, null);
+                mMap.animateCamera(CameraUpdateFactory.newCameraPosition(googlePlex), 100, null);
 
                 mMap.addMarker(new MarkerOptions()
                         .position(new LatLng(23.764819, 90.397503))
