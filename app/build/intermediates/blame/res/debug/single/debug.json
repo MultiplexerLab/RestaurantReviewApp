@@ -180,6 +180,10 @@
         "source": "/home/anix/.gradle/caches/transforms-2/files-2.1/e61aa85eb4135a104c7842cca18d0b8d/res/drawable-xxhdpi-v4/ic_plusone_medium_off_client.png"
     },
     {
+        "merged": "/home/anix/Documents/GitProjects/RestaurantReviewApp/app/build/intermediates/res/merged/debug/layout_custom_rating_dialog.xml.flat",
+        "source": "/home/anix/Documents/GitProjects/RestaurantReviewApp/app/src/main/res/layout/custom_rating_dialog.xml"
+    },
+    {
         "merged": "/home/anix/Documents/GitProjects/RestaurantReviewApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "/home/anix/Documents/GitProjects/RestaurantReviewApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
@@ -3868,12 +3872,12 @@
         "source": "/home/anix/.gradle/caches/transforms-2/files-2.1/ef4c4d8c731ceceb1f9a52355f1b0411/res/drawable-xhdpi-v4/ic_mr_button_connecting_25_dark.png"
     },
     {
-        "merged": "/home/anix/Documents/GitProjects/RestaurantReviewApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_design_ic_visibility.xml.flat",
-        "source": "/home/anix/.gradle/caches/transforms-2/files-2.1/c4774c3ee7ff963d9aa1eb553509c8d4/res/drawable-anydpi-v21/design_ic_visibility.xml"
-    },
-    {
         "merged": "/home/anix/Documents/GitProjects/RestaurantReviewApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_signinbg.png.flat",
         "source": "/home/anix/Documents/GitProjects/RestaurantReviewApp/app/src/main/res/drawable-xhdpi/signinbg.png"
+    },
+    {
+        "merged": "/home/anix/Documents/GitProjects/RestaurantReviewApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_design_ic_visibility.xml.flat",
+        "source": "/home/anix/.gradle/caches/transforms-2/files-2.1/c4774c3ee7ff963d9aa1eb553509c8d4/res/drawable-anydpi-v21/design_ic_visibility.xml"
     },
     {
         "merged": "/home/anix/Documents/GitProjects/RestaurantReviewApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",

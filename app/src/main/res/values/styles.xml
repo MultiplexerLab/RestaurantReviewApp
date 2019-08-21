@@ -12,4 +12,9 @@
         <item name="android:fontFamily">@font/source_serif_pro_bold</item>
 
     </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlActivated">@color/gold</item>
+    </style>
+
 </resources>

@@ -1601,10 +1601,12 @@ font source_serif_pro_bold
 id ALT
 id CTRL
 id FUNCTION
+id Llayout_category
 id META
 id RVreview
 id SHIFT
 id SYM
+id TV_personal
 id action0
 id action_bar
 id action_bar_activity_content
@@ -1651,6 +1653,7 @@ id blocking
 id blurred_background_image_view
 id book_now
 id bottom
+id btn_submit
 id button
 id buttonPanel
 id button_0
@@ -1663,6 +1666,7 @@ id buy_now
 id buy_with
 id buy_with_google
 id cancel_action
+id card_view_chef
 id cast_button_type_closed_caption
 id cast_button_type_custom
 id cast_button_type_empty
@@ -1898,6 +1902,7 @@ id showCustom
 id showHome
 id showTitle
 id simpleFrameLayout
+id simpleRatingBar
 id slide
 id smallLabel
 id snackbar_action
@@ -2040,6 +2045,7 @@ layout cast_mini_controller
 layout cast_tracks_chooser_dialog_layout
 layout cast_tracks_chooser_dialog_row_layout
 layout custom_merchant
+layout custom_rating_dialog
 layout custom_review
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2465,6 +2471,7 @@ style Platform_V21_AppCompat_Light
 style Platform_V25_AppCompat
 style Platform_V25_AppCompat_Light
 style Platform_Widget_AppCompat_Spinner
+style RatingBar
 style RtlOverlay_DialogWindowTitle_AppCompat
 style RtlOverlay_Widget_AppCompat_ActionBar_TitleItem
 style RtlOverlay_Widget_AppCompat_DialogTitle_Icon

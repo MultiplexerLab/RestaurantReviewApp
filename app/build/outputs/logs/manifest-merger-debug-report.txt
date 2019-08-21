@@ -14,6 +14,7 @@ MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/anix/.gradle/cach
 MERGED from [com.google.android.gms:play-services-awareness:12.0.1] /home/anix/.gradle/caches/transforms-2/files-2.1/85f75b524ad25e8fd592b2e89e944a68/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-fitness:12.0.1] /home/anix/.gradle/caches/transforms-2/files-2.1/e89d9df9df3c6a2ffae22e0a72511e09/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-location:12.0.1] /home/anix/.gradle/caches/transforms-2/files-2.1/771d70bfd55b7eb55b2e36f33fc74f5e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/anix/.gradle/caches/transforms-2/files-2.1/10af6e7344a0e0f08aaf5c5f3df23a91/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/anix/.gradle/caches/transforms-2/files-2.1/9921238649795d3b586a7fc1722fb3d2/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services-ads:12.0.1] /home/anix/.gradle/caches/transforms-2/files-2.1/769b79e572c2a89c86902457105f9eb3/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/anix/.gradle/caches/transforms-2/files-2.1/d8cd6a1cc99c4a37a6df7e89576651f6/AndroidManifest.xml:17:1-36:12
@@ -81,7 +82,6 @@ MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/anix/.gradle/
 MERGED from [com.android.support:support-compat:28.0.0] /home/anix/.gradle/caches/transforms-2/files-2.1/0d275c2f699358a924d5ea058af3ad49/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/anix/.gradle/caches/transforms-2/files-2.1/e1a173dfbffe547987ae9a1838803fea/AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:cursoradapter:28.0.0] /home/anix/.gradle/caches/transforms-2/files-2.1/f16b036a7e0a95fbf42073cb3940718c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/anix/.gradle/caches/transforms-2/files-2.1/10af6e7344a0e0f08aaf5c5f3df23a91/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/anix/.gradle/caches/transforms-2/files-2.1/66bdea6e0588a9a882c69e203b971b64/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:documentfile:28.0.0] /home/anix/.gradle/caches/transforms-2/files-2.1/30919e2d0d652e52517dcf806c0eede1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/anix/.gradle/caches/transforms-2/files-2.1/552d27c109fc7eb2e49abce5f9a0d06f/AndroidManifest.xml:17:1-22:12
@@ -492,6 +492,8 @@ MERGED from [com.google.android.gms:play-services-fitness:12.0.1] /home/anix/.gr
 MERGED from [com.google.android.gms:play-services-fitness:12.0.1] /home/anix/.gradle/caches/transforms-2/files-2.1/e89d9df9df3c6a2ffae22e0a72511e09/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-location:12.0.1] /home/anix/.gradle/caches/transforms-2/files-2.1/771d70bfd55b7eb55b2e36f33fc74f5e/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location:12.0.1] /home/anix/.gradle/caches/transforms-2/files-2.1/771d70bfd55b7eb55b2e36f33fc74f5e/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/anix/.gradle/caches/transforms-2/files-2.1/10af6e7344a0e0f08aaf5c5f3df23a91/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/anix/.gradle/caches/transforms-2/files-2.1/10af6e7344a0e0f08aaf5c5f3df23a91/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/anix/.gradle/caches/transforms-2/files-2.1/9921238649795d3b586a7fc1722fb3d2/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/anix/.gradle/caches/transforms-2/files-2.1/9921238649795d3b586a7fc1722fb3d2/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-ads:12.0.1] /home/anix/.gradle/caches/transforms-2/files-2.1/769b79e572c2a89c86902457105f9eb3/AndroidManifest.xml:21:5-23:62
@@ -626,8 +628,6 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /home/anix/.gradle/
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/anix/.gradle/caches/transforms-2/files-2.1/e1a173dfbffe547987ae9a1838803fea/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] /home/anix/.gradle/caches/transforms-2/files-2.1/f16b036a7e0a95fbf42073cb3940718c/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] /home/anix/.gradle/caches/transforms-2/files-2.1/f16b036a7e0a95fbf42073cb3940718c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/anix/.gradle/caches/transforms-2/files-2.1/10af6e7344a0e0f08aaf5c5f3df23a91/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/anix/.gradle/caches/transforms-2/files-2.1/10af6e7344a0e0f08aaf5c5f3df23a91/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/anix/.gradle/caches/transforms-2/files-2.1/66bdea6e0588a9a882c69e203b971b64/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/anix/.gradle/caches/transforms-2/files-2.1/66bdea6e0588a9a882c69e203b971b64/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:documentfile:28.0.0] /home/anix/.gradle/caches/transforms-2/files-2.1/30919e2d0d652e52517dcf806c0eede1/AndroidManifest.xml:20:5-44

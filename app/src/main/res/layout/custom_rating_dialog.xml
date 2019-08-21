@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:alpha="0.9"
+    android:background="@color/colorPrimaryDark">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view_chef"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:clickable="true"
+        card_view:cardBackgroundColor="@color/colorPrimaryDark"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="10dp">
+
+        <LinearLayout
+            android:id="@+id/Llayout_category"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TV_personal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/source_serif_pro_bold"
+                android:layout_marginTop="40dp"
+                android:gravity="center_horizontal"
+                android:text="Your Rating"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <RatingBar
+                android:id="@+id/simpleRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:numStars="5"
+                android:rating="5"
+                android:soundEffectsEnabled="true"
+                android:theme="@style/RatingBar"/>
+
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/round_button"
+                android:backgroundTint="@color/white"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="ADD"
+                android:stateListAnimator="@null"
+                android:elevation="6dp"
+                android:textColor="@color/tabcol"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
+
